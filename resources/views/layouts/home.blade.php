@@ -63,8 +63,11 @@
                         <h3>Chirazu Esport</h3>
                         <p>Chirazu Esport provide you with the list of all Esport team available and also all of the latest information of each Esport team</p>
                     </div>
-                    <div class="col item social"><a href="{{asset('assets/css/Footer-Dark.css')}}"><i class="icon ion-social-facebook"></i></a><a href="#
-                    "><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                    <div class="col item social">
+                    <a href="{{asset('assets/css/Footer-Dark.css')}}"><i class="icon ion-social-facebook"></i></a>
+                    <a href="{{asset('assets/css/Footer-Dark.css')}}"><i class="icon ion-social-twitter"></i></a>
+                    <a href="{{asset('assets/css/Footer-Dark.css')}}"><i class="icon ion-social-snapchat"></i></a>
+                    <a href="{{asset('assets/css/Footer-Dark.css')}}"><i class="icon ion-social-instagram"></i></a></div>
                 </div>
                 <p class="copyright">Chirazu Esport @2020</p>
             </div>

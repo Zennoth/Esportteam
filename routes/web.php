@@ -20,6 +20,7 @@ use App\Http\Controllers\MemberController;
 Route::get('/', function (){
     return view('layouts.home');
 });
+
 Route::resource('team', TeamController::class);
 
 Route::resource('member', MemberController::class);
