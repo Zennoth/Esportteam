@@ -12,26 +12,26 @@
                     @csrf
                     <div class="form-group">
                         <label>Member Name:</label>
-                        <input type="text" class="form-control" name="nama_member" onmouseover="this.style.boxShadow='0px 0px 15px LightSkyBlue'" onmouseout="this.style.boxShadow='0px 0px 0px LightSkyBlue'">
+                        <input type="text" class="form-control" name="nama_member">
                     </div>
                     <div class="form-group">
                         <label>Member Number:</label>
-                        <input class="form-control" name="no_member" onmouseover="this.style.boxShadow='0px 0px 15px LightSkyBlue'" onmouseout="this.style.boxShadow='0px 0px 0px LightSkyBlue'">
+                        <input class="form-control" name="no_member">
                     </div>
                     <div class="form-group">
                         <label>Role:</label>
-                        <input class="form-control" name="role" onmouseover="this.style.boxShadow='0px 0px 15px LightSkyBlue'" onmouseout="this.style.boxShadow='0px 0px 0px LightSkyBlue'">
+                        <input class="form-control" name="role">
                     </div>
                     <div class="form-group">
                         <label>Playing for:</label>
-                        <select class="custom-select" name="playing_for" onmouseover="this.style.boxShadow='0px 0px 15px LightSkyBlue'" onmouseout="this.style.boxShadow='0px 0px 0px LightSkyBlue'">
+                        <select class="custom-select" name="playing_for">
                             @foreach ($teams as $team)
                                 <option value="{{ $team->id }}">{{$team->nama_team}}</option>
                             @endforeach
                         </select>
                     </div>
 
-                    <button type="submit" class="btn btn-primary" onmouseover="this.style.boxShadow='0px 0px 15px LightSkyBlue'" onmouseout="this.style.boxShadow='0px 0px 0px LightSkyBlue'">Submit</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
         </div>

@@ -13,7 +13,7 @@
         <div class="row" style="margin-top: 30px;">
             <table class="table table-striped">
                 <thead>
-                <tr style="background-color: rgba(255, 255, 255, 0.8)">
+                <tr>
                     <th scope="col">Team Name</th>
                     <th scope="col">Team Number</th>
                     <th scope="col">Game</th>
@@ -25,8 +25,8 @@
                 <tbody>
 
                 @foreach($teams as $team)
-                    <tr style="background-color: rgba(255, 255, 255, 0.5)">
-                    <td><a href="{{ route('team.edit', $team) }}" onmouseover="this.style.textShadow='0px 0px 15px LightSkyBlue'" onmouseout="this.style.textShadow='0px 0px 0px LightSkyBlue'">{{ $team->nama_team }}</a></td>
+                    <tr>
+                    <td><a href="{{ route('team.edit', $team) }}">{{ $team->nama_team }}</a></td>
                         <td>{{ $team->no_team }}</td>
                         <td>{{ $team->game }}</td>
                         <td>{{ $team->updated_at}}</td>
@@ -35,7 +35,7 @@
                             <form action="{{ route('team.destroy', $team) }}" method="post" onsubmit="return confirm('This will delete all your data, continue ?')">
                                 @csrf
                                 <input type="hidden" name="_method" value="DELETE">
-                                <button type="submit" class="btn btn-danger" onmouseover="this.style.boxShadow='0px 0px 15px HotPink'" onmouseout="this.style.boxShadow='0px 0px 0px HotPink'">Delete</button>
+                                <button type="submit" class="btn btn-danger">Delete</button>
                             </form>
                         </td>
                     </tr>

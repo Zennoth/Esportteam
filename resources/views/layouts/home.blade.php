@@ -24,19 +24,19 @@
         </div>
     </nav>
 
-    <div data-ride="carousel" class="carousel slide" id="carousel-1" style=width:100%>
-        <div class="carousel-inner"> 
-            <div class="carousel-item active"><img class="w-100 d-block" src="{{asset('assets/img/a.png')}}" alt="Slide Image" /></div>
-            <div class="carousel-item"><img class="w-100 d-block" src="{{asset('assets/img/b.png')}}" alt="Slide Image" /></div>
-            <div class="carousel-item"><img class="w-100 d-block" src="{{asset('assets/img/c.png')}}" alt="Slide Image" /></div>
-        </div>
-        <div><a href="#carousel-1" data-slide="prev" class="carousel-control-prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a href="#carousel-1" data-slide="next" class="carousel-control-next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
-        <ol
-            class="carousel-indicators">
-            <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-1" data-slide-to="1" ></li>
-            <li data-target="#carousel-1" data-slide-to="2"></li>
-            </ol>
+    <div class="carousel slide" data-ride="carousel" id="carousel-1" style=width:100%>
+    <div class="carousel-inner">
+        <div class="carousel-item active"><img class="w-100 d-block" src="{{asset('assets/img/a.png')}}" alt="Slide Image"></div>
+        <div class="carousel-item"><img class="w-100 d-block" src="{{asset('assets/img/b.png')}}" alt="Slide Image"></div>
+        <div class="carousel-item"><img class="w-100 d-block" src="{{asset('assets/img/c.png')}}" alt="Slide Image"></div>
+    </div>
+    <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+    <ol
+        class="carousel-indicators">
+        <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-1" data-slide-to="1"></li>
+        <li data-target="#carousel-1" data-slide-to="2"></li>
+    </ol>
     </div>
 
     <div class="footer-dark" style="margin-top: 25%;">
@@ -64,10 +64,10 @@
                         <p>Chirazu Esport provide you with the list of all Esport team available and also all of the latest information of each Esport team</p>
                     </div>
                     <div class="col item social">
-                    <a href="{{asset('assets/css/Footer-Dark.css')}}"><i class="icon ion-social-facebook"></i></a>
-                    <a href="{{asset('assets/css/Footer-Dark.css')}}"><i class="icon ion-social-twitter"></i></a>
-                    <a href="{{asset('assets/css/Footer-Dark.css')}}"><i class="icon ion-social-snapchat"></i></a>
-                    <a href="{{asset('assets/css/Footer-Dark.css')}}"><i class="icon ion-social-instagram"></i></a></div>
+                    <a href="#"><i class="icon ion-social-facebook"></i></a>
+                    <a href="#"><i class="icon ion-social-twitter"></i></a>
+                    <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                    <a href="#"><i class="icon ion-social-instagram"></i></a></div>
                 </div>
                 <p class="copyright">Chirazu Esport @2020</p>
             </div>

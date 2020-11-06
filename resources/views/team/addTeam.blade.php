@@ -10,17 +10,17 @@
                     @csrf
                     <div class="form-group">
                         <label>Team Name:</label>
-                        <input type="text" class="form-control" name="nama_team" onmouseover="this.style.boxShadow='0px 0px 15px LightSkyBlue'" onmouseout="this.style.boxShadow='0px 0px 0px LightSkyBlue'">
+                        <input type="text" class="form-control" name="nama_team">
                     </div>
                     <div class="form-group">
                         <label>Team Number:</label>
-                        <input type="text" class="form-control" name="no_team" onmouseover="this.style.boxShadow='0px 0px 15px LightSkyBlue'" onmouseout="this.style.boxShadow='0px 0px 0px LightSkyBlue'">
+                        <input type="text" class="form-control" name="no_team" >
                     </div>
                     <div class="form-group">
                         <label>Esport Category:</label>
-                        <input type="text" class="form-control" name="game" onmouseover="this.style.boxShadow='0px 0px 15px LightSkyBlue'" onmouseout="this.style.boxShadow='0px 0px 0px LightSkyBlue'">
+                        <input type="text" class="form-control" name="game" >
                     </div>                
-                    <button type="submit" class="btn btn-primary" onmouseover="this.style.boxShadow='0px 0px 15px LightSkyBlue'" onmouseout="this.style.boxShadow='0px 0px 0px LightSkyBlue'">Submit</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
         </div>
